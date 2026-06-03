@@ -29,17 +29,11 @@ export function Skills() {
       <h2 className="section-title">Technical Toolkit</h2>
       <div className="mt-8 grid gap-5 lg:grid-cols-3">
         {skillGroups.map((group) => (
-          <article
-            key={group.title}
-            className="glass-card p-6 transition duration-300 hover:-translate-y-1 hover:border-accent/70 hover:shadow-glow"
-          >
+          <article key={group.title} className="glass-card p-6">
             <h3 className="text-lg font-semibold text-white">{group.title}</h3>
             <div className="mt-5 flex flex-wrap gap-2">
               {group.skills.map((skill) => (
-                <span
-                  key={skill}
-                  className="rounded-full bg-white/10 px-3 py-1.5 text-sm font-medium text-gray-200 ring-1 ring-white/10"
-                >
+                <span key={skill} className="tech-tag">
                   {skill}
                 </span>
               ))}
