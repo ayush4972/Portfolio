@@ -4,10 +4,11 @@ export function Hero() {
   return (
     <section id="about" className="section-shell flex min-h-screen items-center pt-28">
       <div className="max-w-4xl">
-        <h1 className="max-w-4xl text-5xl font-bold tracking-normal text-white sm:text-7xl lg:text-8xl">
+        <p className="section-kicker">Portfolio</p>
+        <h1 className="max-w-4xl text-balance text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
           Ayush Chaudhary
         </h1>
-        <p className="mt-5 text-xl font-medium text-accent sm:text-2xl">
+        <p className="mt-4 text-lg font-medium text-accent sm:mt-5 sm:text-xl">
           Software Engineer | AI & Data Science
         </p>
         <p className="mt-7 max-w-3xl text-base leading-8 text-gray-400 sm:text-lg">
