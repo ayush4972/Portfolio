@@ -36,7 +36,7 @@ export function Projects() {
         {projects.map((project) => (
           <article
             key={project.title}
-            className="glass-card flex min-h-80 flex-col p-6 transition duration-300 hover:-translate-y-1 hover:border-accent/70 hover:shadow-glow"
+            className="glass-card flex min-h-80 flex-col p-6"
           >
             <h3 className="text-xl font-semibold leading-snug text-white">
               {project.title}

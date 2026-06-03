@@ -3,7 +3,7 @@ export function Experience() {
     <section id="experience" className="section-shell scroll-mt-16">
       <p className="section-kicker">Experience</p>
       <h2 className="section-title">Selected Work</h2>
-      <article className="glass-card mt-8 p-6 transition duration-300 hover:-translate-y-1 hover:border-accent/70 hover:shadow-glow sm:p-8">
+      <article className="glass-card mt-8 p-6 sm:p-8">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
           <div>
             <h3 className="text-2xl font-semibold text-white">

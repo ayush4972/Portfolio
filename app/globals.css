@@ -26,6 +26,11 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(12px);
     border-radius: 16px;
+    @apply transition duration-300;
+  }
+
+  .glass-card:hover {
+    @apply -translate-y-1 border-accent/70 shadow-glow;
   }
 
   .section-shell {

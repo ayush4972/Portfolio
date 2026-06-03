@@ -31,7 +31,7 @@ export function Skills() {
         {skillGroups.map((group) => (
           <article
             key={group.title}
-            className="glass-card p-6 transition duration-300 hover:-translate-y-1 hover:border-accent/70 hover:shadow-glow"
+            className="glass-card p-6"
           >
             <h3 className="text-lg font-semibold text-white">{group.title}</h3>
             <div className="mt-5 flex flex-wrap gap-2">
