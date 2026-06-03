@@ -25,16 +25,7 @@ body {
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
-    transition: all 0.3s ease;
-  }
-
-  .glass-card:hover {
-    border-color: rgba(0, 212, 212, 0.4);
-    box-shadow: 0 0 20px rgba(0, 212, 212, 0.15);
-    transform: translateY(-4px);
   }
 
   .section-shell {
@@ -46,53 +37,6 @@ body {
   }
 
   .section-kicker {
-    @apply mb-3 text-sm font-semibold uppercase tracking-widest text-accent;
-  }
-
-  .tech-tag {
-    @apply rounded-md border border-accent/30 bg-accent/10 px-2.5 py-0.5 text-xs text-accent;
-    font-size: 0.75rem;
-  }
-
-  .btn-primary {
-    @apply rounded-lg bg-accent px-6 py-3 text-sm font-semibold text-[#0a0a0a] transition duration-300;
-  }
-
-  .btn-primary:hover {
-    @apply bg-accent-hover;
-    transform: scale(1.02);
-  }
-
-  .btn-primary:disabled {
-    @apply cursor-not-allowed opacity-60;
-    transform: none;
-  }
-
-  .btn-github {
-    @apply inline-flex items-center gap-2 rounded-lg border border-accent bg-transparent px-4 py-2 text-sm font-semibold text-accent transition duration-300;
-  }
-
-  .btn-github:hover {
-    background: rgba(0, 212, 212, 0.1);
-  }
-
-  .nav-glass {
-    background: rgba(10, 10, 10, 0.8);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-
-  .glass-card,
-  .glass-card:hover,
-  .btn-primary:hover {
-    transition: none;
-    transform: none;
+    @apply mb-3 text-sm font-semibold uppercase tracking-[0.22em] text-accent;
   }
 }

@@ -4,7 +4,7 @@ export function Hero() {
   return (
     <section id="about" className="section-shell flex min-h-screen items-center pt-28">
       <div className="max-w-4xl">
-        <h1 className="max-w-4xl text-4xl font-bold tracking-normal text-white sm:text-5xl">
+        <h1 className="max-w-4xl text-5xl font-bold tracking-normal text-white sm:text-7xl lg:text-8xl">
           Ayush Chaudhary
         </h1>
         <p className="mt-5 text-xl font-medium text-accent sm:text-2xl">
@@ -17,12 +17,15 @@ export function Hero() {
           intelligent dashboards.
         </p>
         <div className="mt-10 flex flex-wrap items-center gap-4">
-          <a href="#projects" className="btn-primary">
+          <a
+            href="#projects"
+            className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-black transition hover:bg-accent-hover hover:shadow-glow"
+          >
             View Projects
           </a>
           <a
             href="#contact"
-            className="rounded-lg border border-white/15 px-6 py-3 text-sm font-semibold text-white transition duration-300 hover:border-accent hover:text-accent"
+            className="rounded-full border border-white/15 px-6 py-3 text-sm font-semibold text-white transition hover:border-accent hover:text-accent"
           >
             Contact Me
           </a>
@@ -31,7 +34,7 @@ export function Hero() {
             target="_blank"
             rel="noreferrer"
             aria-label="Open Ayush Chaudhary GitHub profile"
-            className="inline-flex h-12 w-12 items-center justify-center rounded-lg border border-accent/40 text-accent transition duration-300 hover:bg-accent/10"
+            className="inline-flex h-12 w-12 items-center justify-center rounded-full border border-white/15 text-gray-300 transition hover:border-accent hover:text-accent hover:shadow-glow"
           >
             <Github className="h-5 w-5" />
           </a>
