@@ -4,7 +4,6 @@ export function Hero() {
   return (
     <section id="about" className="section-shell flex min-h-screen items-center pt-28">
       <div className="max-w-4xl">
-        <p className="section-kicker">Portfolio</p>
         <h1 className="max-w-4xl text-4xl font-bold tracking-normal text-white sm:text-5xl">
           Ayush Chaudhary
         </h1>

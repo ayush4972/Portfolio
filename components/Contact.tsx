@@ -74,7 +74,6 @@ export function Contact() {
               </a>
             </p>
             <p>B.Tech Computer Science, Vellore Institute of Technology</p>
-            <p>CGPA: 8.17 | 2022 - 2026</p>
           </div>
         </div>
 
